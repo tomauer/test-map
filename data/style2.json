@@ -1,0 +1,63 @@
+{
+    "version": 8,
+    "name": "Blank",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "js": "1.9.0",
+            "android": "8.6.0",
+            "ios": "5.6.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [2.2732313078701054, 48.88481220007603],
+    "zoom": 8.301329164676286,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://theskua.0hrkq780", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/theskua/ckbb4n7yl0b0w1hohd7k0us4b/draft",
+    "glyphs": "mapbox://fonts/theskua/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "erd202004-27km-poly-moll-fixed",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "erd202004_27km_poly_moll_fixed",
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "new"],
+                    [1],
+                    "hsl(24, 78%, 56%)",
+                    [
+                    "step",
+                    ["get", "diff"],
+                    "#EFF3FF",
+                    -1,
+                    "#C6DBEF",
+                    0.2,
+                    "#9ECAE1",
+                    0.4,
+                    "#6BAED6",
+                    0.6,
+                    "#3182BD",
+                    0.8,
+                    "#08519C"
+                    ]
+                ]
+            }
+        }
+        
+    ],
+    "created": "2020-06-11T18:40:30.124Z",
+    "id": "ckbb4n7yl0b0w1hohd7k0us4b",
+    "modified": "2020-06-11T18:41:23.495Z",
+    "owner": "theskua",
+    "visibility": "private",
+    "draft": true
+}

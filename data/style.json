@@ -1,0 +1,68 @@
+{
+    "version": 8,
+    "name": "Blank",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "js": "1.9.0",
+            "android": "8.6.0",
+            "ios": "5.6.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [2.2732313078701054, 48.88481220007603],
+    "zoom": 8.301329164676286,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://theskua.0hrkq780", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/theskua/ckbb4n7yl0b0w1hohd7k0us4b/draft",
+    "glyphs": "mapbox://fonts/theskua/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "erd202004-27km-poly-moll-fixed",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "erd202004_27km_poly_moll_fixed",
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["get", "count"],
+                    1,
+                    "#000004",
+                    3.22,
+                    "#150E37",
+                    10.38,
+                    "#3B0F70",
+                    33.44,
+                    "#641A80",
+                    107.77,
+                    "#8C2981",
+                    347.23,
+                    "#B63679",
+                    1118.78,
+                    "#DE4968",
+                    3604.72,
+                    "#F76F5C",
+                    11614.38,
+                    "#FE9F6D",
+                    37412.47,
+                    "#FECE91",
+                    120571.72,
+                    "#FCFDBF"
+                ]
+            }
+        }
+    ],
+    "created": "2020-06-11T18:40:30.124Z",
+    "id": "ckbb4n7yl0b0w1hohd7k0us4b",
+    "modified": "2020-06-11T18:41:23.495Z",
+    "owner": "theskua",
+    "visibility": "private",
+    "draft": true
+}
